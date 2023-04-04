@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Automation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="body"> 
+    <div class="card">
+    <form action="{{ url_for('send') }}"  method="post" enctype="multipart/form-data" class="formcontainer">
+        <h2>Whatsapp Automation</h2>
+        <label class="label">Excel file with contact and name:</label><input type="file" name="exl_file" id="file">
+        <label for="file">
+            <img src="static\img\folder.png" alt=""></img>
+            <span>Add a Excel file</span>
+          </label>
+          <br>
+        <label class="label">The message to send:(upload a text file)</label><input type="file" name="txt_file" id="input_file">
+        <label for="input_file">
+            <img src="static\img\chat.png" alt=""></img>
+            <span>Select a Message</span>
+          </label>
+          <br>
+        <input class="button" type="submit">
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Hi *{}* ,
+
+This is an automated Whatsapp Sending COde written in Python.
+finally did it :)
+
+

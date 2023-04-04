@@ -1,0 +1,48 @@
+.body{
+    background-color: grey;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.formcontainer{
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    gap: 10px;
+
+}
+.label{
+    display: block;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.button{
+    color: black;
+    font-size: 18px;
+    border-radius: 10%;
+    border: none;
+    margin-top: 10px;
+    background-color:#8c9c90;
+    padding: 8px;
+    display: flex;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
+input[type="file"] {
+    display: none;
+  }
+span{
+    color: grey;
+    margin-bottom: 8px;
+}
